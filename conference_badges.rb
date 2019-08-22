@@ -23,5 +23,4 @@ def printer(attendees)
   assign_rooms(attendees).each do |message|
     puts message
   end
-
 end
