@@ -19,6 +19,6 @@ end
 def printer(attendees)
   attendees.each_with_index do |name, index|
     badge_maker(name)
-    assign_room(name, index + 1)
+    assign_rooms(name, index + 1)
   end
 end
