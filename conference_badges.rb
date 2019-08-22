@@ -17,4 +17,6 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
+  attendees.map do |name|
+    badge_maker(name)
 end
